@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+    <body>
+
+    </body>
+
+    <script>
+
+        /*5 - Construa um algoritmo com uma função que leia a cotação do dólar, leia os valores em real, 
+        converta esse valor para dólar e mostre o resultado.
+*/
+
+        //declarando variaveis
+        var cot_dolar, valor_real;
+
+        //definindo a cotação atual do dólar:
+        cot_dolar = 5.45
+        
+        //pedindo um numero real qualquer:
+        valor_real = prompt("Quanto dinheiro (em R$) você tem?")
+
+        //a função que foi cobrada no exercício:
+        function conversao(cot_dolar, valor_real) {
+
+            valor_dolar = parseFloat(valor_real) / cot_dolar;
+
+            if(valor_dolar < 0.01){
+
+                alert("Valor insuficiente para fazer converter em dólar")
+            
+            } else {
+
+                alert(`Seus ${valor_real} reais são ${valor_dolar} dólares`)
+            
+            }
+        }
+
+        //invocando a funcao para mostrat o resultado da conversão:
+        conversao(cot_dolar, valor_real);
+
+        //programa encerrado -> Não encontrei uma forma de arredonda decimais como eu queria.
+    </script>
+
+</html>

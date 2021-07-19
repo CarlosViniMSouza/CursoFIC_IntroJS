@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+    </body>
+
+    <script>
+        /*3 - Faça um algoritmo que leia 4 notas e informe a média final.*/
+
+        //declarando variaveis globais
+        var notas, soma, i, j;
+        
+        //iniciando variaveis
+        notas = new Array(4);
+        soma, i = 0;
+        
+        for(i; i < notas.length ; i++){
+
+            notas[i] = parseFloat(prompt("Digite a nota" + (i+1)));
+            
+            //funçao que retorna a soma dos numeros dentro do array:
+            function somaNotas(notas) { 
+                return notas.reduce((soma, notas) => soma + notas, 0);
+            }
+        }
+
+        //a media final sera calculada
+        media = somaNotas(notas)/notas.length;
+        
+        alert("A media das notas eh: "+ media);
+        //execução encerrada    
+    </script>
+
+</html>

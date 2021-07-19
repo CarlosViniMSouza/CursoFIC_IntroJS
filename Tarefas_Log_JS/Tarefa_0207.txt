@@ -1,0 +1,12 @@
+Lista de exercícios Aula-02
+
+1 - Faça um programa que exiba uma mensagem com 4 linhas (texto livre) em uma única caixa.
+
+2 - Faça um programa que leia 4 valores, calcule o quadrado de cada um, some todos os resultados e mostre o resultado final.
+
+3 - Faça um algoritmo que leia 4 notas e informe a média final.
+
+4 - Faça um programa para calcular o estoque médio de uma peça, sendo informado o estoque mínimo e o estoque máximo.
+
+
+5 - Construa um algoritmo com uma função que leia a cotação do dólar, leia os valores em real, converta esse valor para dólar e mostre o resultado.

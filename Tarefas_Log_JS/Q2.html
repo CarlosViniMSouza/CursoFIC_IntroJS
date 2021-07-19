@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+    </body>
+
+    <script>
+
+        /*2 - Faça um programa que leia 4 valores, calcule o quadrado de cada um,
+         some todos os resultados e mostre o resultado final.*/
+
+        //declarando variaveis globais
+        var numeros, soma, i;
+        
+        //iniciando variaveis
+        numeros = new Array(4);
+        soma=0;
+        i = 0
+        
+        for(i; i < numeros.length ; i++){
+        
+            Number = true;
+            
+            do {
+
+                numeros[i] = prompt("Digite o " + (i+1) + "º número");
+                soma += Math.pow(numeros[i], 2);
+                Number = false;	
+
+            }while (Number == true)
+        }
+        
+        alert("A soma dos elementos é: "+ soma);
+        //execução encerrada
+        
+        //OBS.: o código dentro do do{}while() foi pego em: 
+        //https://classroom.google.com/u/0/c/MzM2MjI4MjMyNDIz/m/MzM2NTI1ODk0NDcw/details
+    
+    </script>
+
+</html>
