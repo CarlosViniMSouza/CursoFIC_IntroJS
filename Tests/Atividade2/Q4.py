@@ -11,34 +11,34 @@ c) Se i=3 escrever os três valores a, b, c de forma que o maior entre a, b, c
 fique dentre os dois.
 """
 
-i = int(input("Digite um num inteiro: "))
-a = float(input("Digite um num real: "))
-b = float(input("Digite um num real: "))
-c = float(input("Digite um num real: "))
+# i = int(input("Digite um num inteiro: "))
+# a = float(input("Digite um num real: "))
+# b = float(input("Digite um num real: "))
+# c = float(input("Digite um num real: "))
 
-lista = [a, b, c]
+def conj(i, a, b, c):
 
-def conj(i, lista):
+    lista = [a, b, c]
     #code here:
     if (i == 1):
         lista.sort()
-        print(f"A ordem eh = {lista}")
+        return f"A ordem eh = {lista}"
 
     elif (i == 2):
         lista.reverse()
-        print(f"A ordem eh = {lista}")
+        return f"A ordem eh = {lista}"
 
     elif (i == 3):
         if (lista[0] > lista[1] and lista[0] > lista[2]):
-            print(f"A ordem eh = {lista[1], lista[0], lista[2]}")
+            return f"A ordem eh = {lista[1], lista[0], lista[2]}"
 
         elif (lista[1] > lista[0] and lista[1] > lista[2]):
-            print(f"A ordem eh = {lista[0], lista[1], lista[2]}]")
+            return f"A ordem eh = {lista[0], lista[1], lista[2]}]"
 
         else:
-            print(f"A ordem eh = {lista[0], lista[2], lista[1]}")
+            return f"A ordem eh = {lista[0], lista[2], lista[1]}"
     
     else:
-        print("erro!")
+        return "erro!"
 
-conj(i, lista)
+conj(2, 4, 5, 6)
