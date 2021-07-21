@@ -1,0 +1,3 @@
+#1 -> implementar uma função que diz se um numero eh impar
+
+#2 ->
