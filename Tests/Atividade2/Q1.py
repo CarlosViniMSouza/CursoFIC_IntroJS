@@ -3,14 +3,14 @@
 escreve com a mensagem: "São múltiplos" ou "Não são múltiplos".
 """
 
-a = int(input("Digite um numero: "))
-b = int(input("Digite outro numero: "))
+# a = int(input("Digite um numero: "))
+# b = int(input("Digite outro numero: "))
 
 def multiplos(a, b):
     # code here:
     if (a % b == 0):
-        return "Sao multiplos"
+        return True
     else:
-        return "Nao sao multiplos"
+        return False
 
-multiplos(a, b)
+# multiplos(a, b)

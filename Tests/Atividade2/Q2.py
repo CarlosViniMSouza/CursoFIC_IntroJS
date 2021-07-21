@@ -24,4 +24,4 @@ def categoria(id):
     else:
         return "Sem categoria! Não pode competir"
 
-categoria(id)
+# categoria(id)
