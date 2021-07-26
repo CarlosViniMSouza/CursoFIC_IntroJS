@@ -1,8 +1,7 @@
-{
-  "language": "python",
-  "os": [
-    "linux"
-  ],
-  "dist": "xenial",
-  "version": "3.9.6"
-}
+language: python
+python:
+  - 3.9.6
+install:
+  - make install
+script:
+  - make test 
