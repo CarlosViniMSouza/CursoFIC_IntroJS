@@ -1,3 +1,8 @@
-language: python
-version:
-  - 3.9.6
+{
+  "language": "python",
+  "os": [
+    "linux"
+  ],
+  "dist": "xenial",
+  "version": "3.9.6"
+}
